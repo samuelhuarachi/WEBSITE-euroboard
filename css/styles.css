@@ -109,9 +109,9 @@ i {
   color: #0029ff;
 }
 
-a:hover {
+/* a:hover {
   opacity: 0.8;
-}
+} */
 
 .project-category {
   color: yellow;
@@ -298,7 +298,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 3px;
 }
 
 abbr[title] {
@@ -8312,8 +8312,13 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
-  background-color: #0001FA;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,9,9,1) 45%, rgba(0,0,0,1) 100%);
   color: #fff;
+}
+
+footer i {
+  color: yellow;
 }
 
 .bg-black {

@@ -1,2 +1,2 @@
-Website for a company in Barelona, Spain.
+Website for a company in Barcelona, Spain.
 

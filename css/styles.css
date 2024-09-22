@@ -91,6 +91,10 @@
   }
 }
 
+#logo_eurobord {
+  width: 100%;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -2075,6 +2079,9 @@ header.masthead span {
   -webkit-overflow-scrolling: touch;
 }
 
+
+
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
@@ -2085,6 +2092,10 @@ header.masthead span {
   .table-responsive-md {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+  }
+
+  #logo_eurobord {
+    margin-top: -8%;
   }
 }
 @media (max-width: 991.98px) {
@@ -2105,6 +2116,14 @@ header.masthead span {
     -webkit-overflow-scrolling: touch;
   }
 }
+
+@media (max-width: 489px) {
+  #logo_eurobord {
+    margin-top: -15%;
+  }
+}
+
+
 .form-label {
   margin-bottom: 0.5rem;
 }
@@ -5575,11 +5594,16 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 575.98px) {
+  #logo_eurobord {
+    width: 60%;
+  }
+
   .modal-fullscreen-sm-down {
     width: 100vw;
     max-width: none;
     height: 100%;
     margin: 0;
+
   }
   .modal-fullscreen-sm-down .modal-content {
     height: 100%;
@@ -8312,8 +8336,8 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,9,9,1) 45%, rgba(0,0,0,1) 100%);
+  background: #09204d;
+  /* background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(9,9,9,1) 45%, rgba(0,0,0,1) 100%); */
   color: #fff;
 }
 

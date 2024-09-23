@@ -27,6 +27,9 @@
         "dist",
         "__tests__",
         "webpack.dev.js",
-        "view"
+        "views",
+        "js",
+        "assets",
+        "css"
     ]
 }

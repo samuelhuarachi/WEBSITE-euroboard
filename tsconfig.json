@@ -28,7 +28,7 @@
         "__tests__",
         "webpack.dev.js",
         "views",
-        "js",
+        "public/js",
         "assets",
         "css"
     ]

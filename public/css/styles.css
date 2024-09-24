@@ -105,9 +105,11 @@ h2 span, h3 {
   text-shadow: 2px 2px 1px #757229;
 }
 
+
 h3 {
-    color: #0538ff;
-    text-shadow: 2px 2px 2px #86a0ff;
+    color: #161616;
+    text-shadow: -1px 0px 2px #a9a9a9;
+    font-family: Arial Black;
 }
 
 

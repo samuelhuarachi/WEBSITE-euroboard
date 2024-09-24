@@ -8,6 +8,10 @@
     ],
     "routes": [
       {
+        "src": "/picaje-bordado/(.*)",
+        "dest": "dist/index.js"
+      },
+      {
         "src": "/(.*)",
         "dest": "dist/index.js"
       }

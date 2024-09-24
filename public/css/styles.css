@@ -11181,6 +11181,12 @@ hr.divider-light {
   background-size: contain;
 }
 
+@media (max-width: 992px) {
+    #eurobord_slide_home {
+        margin-top:60px;
+    }
+}
+
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
@@ -11218,6 +11224,8 @@ hr.divider-light {
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
     color: #c5c5c5;
   }
+
+
 }
 
 

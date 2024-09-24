@@ -12,7 +12,7 @@
         "dest": "dist/index.js"
       },
       {
-        "src": "/picaje-bordado",
+        "src": "/picaje-bordado(.*)",
         "dest": "dist/index.js"
       }
     ]

@@ -10,9 +10,9 @@
       {
         "src": "/(.*)",
         "dest": "dist/index.js"
+      },
+      {
+        "/picaje-bordado": "dist/index.js"
       }
-    ],
-    "rewrites": [
-        {"source": "/picaje-bordado/", "destination": "https://website-eurobord.vercel.app/"}
     ]
   }

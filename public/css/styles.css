@@ -112,6 +112,16 @@ h3 {
     font-family: Arial Black;
 }
 
+#services h3 {
+    color: #e9d00c;
+    text-shadow: -1px 0px 2px #000000;
+    font-family: Arial Black;
+    background: #0c41db;
+    border-radius: 17px;
+    padding: 5px 5px;
+    font-size: 15px;
+}
+
 
 
 body {
